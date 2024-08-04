@@ -1,0 +1,33 @@
+.fullscreen-btn {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.fullscreen-btn:hover {
+  background-color: #0056b3;
+}
+
+.video-player {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+  background-color: black; /* Optional: to provide a black background */
+}
+
+.react-player {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.react-player > div {
+  position: relative;
+}
